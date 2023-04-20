@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Zephyr Calculator</h1>
+        <div class="screen" id="screen"></div>
+        <div class="buttons">
+            <button class="red" onclick="effacer()">C</button>
+            <button class="bleu" onclick="calculate('sq')">X²</button>
+            <button class="bleu" onclick="calculate('sqrt')">&radic;</button>
+            <button class="vert" onclick="calculate('/')">/</button>
+            <button class="gris-fonce" onclick="calculate('7')">7</button>
+            <button class="gris-fonce" onclick="calculate('8')">8</button>
+            <button class="gris-fonce" onclick="calculate('9')">9</button>
+            <button class="vert" onclick="calculate('*')">x</button>
+            <button class="gris-fonce" onclick="calculate('4')">4</button>
+            <button class="gris-fonce" onclick="calculate('5')">5</button>
+            <button class="gris-fonce" onclick="calculate('6')">6</button>
+            <button class="vert" onclick="calculate('-')">-</button>
+            <button class="gris-fonce" onclick="calculate('1')">1</button>
+            <button class="gris-fonce" onclick="calculate('2')">2</button>
+            <button class="gris-fonce" onclick="calculate('3')">3</button>
+            <button class="vert" onclick="calculate('+')">+</button>
+            <button class="gris-fonce" onclick="calculate('00')">00</button>
+            <button class="gris-fonce" onclick="calculate('0')">0</button>
+            <button class="gris-fonce" onclick="calculate('.')">.</button>
+            <button class="jaune" onclick="calculate('=')">=</button>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

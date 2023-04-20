@@ -1,0 +1,89 @@
+body,
+html {
+    width: 120vw;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e5eaef;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+main {
+    background-color: #fffff9;
+    width: 20%;
+    height: 90vh;
+    margin: 40px auto;
+    padding: 4px 18px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px 3px rgba(63, 44, 44, 0.2);
+}
+
+.screen {
+    width: 97.5%;
+    margin: 0 auto;
+    background-color: #eeeeebe1;
+    height: 5em;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    text-align: end;
+    padding: 10px 16px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    width: 100%;
+    height: fit-content;
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+button {
+    width: 4em;
+    height: 4em;
+    border-radius: 10%;
+    border: none;
+    color: whitesmoke;
+    /* background-color: #1c1c1c; */
+    font-weight: 600;
+    /* font-size: 15px; */
+}
+
+.red {
+    background-color: red;
+    box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.175);
+}
+
+.bleu {
+    background-color: turquoise;
+    box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.175);
+}
+
+.vert {
+    background-color: #31807a;
+}
+
+.jaune {
+    background-color: yellow;
+}
+
+.vert,
+.jaune {
+    border-radius: 100%;
+    box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.175);
+}
+
+.gris-fonce {
+    background-color: #e1e1e6;
+    color: #8584a3;
+    box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.175);
+}
